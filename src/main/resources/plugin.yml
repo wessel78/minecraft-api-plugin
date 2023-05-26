@@ -1,0 +1,9 @@
+name: ApiPlugin
+version: '${project.version}'
+main: me.porion.apiplugin.ApiPlugin
+api-version: 1.19
+commands:
+  setupApi:
+    description: Setup the api within your server
+    usage: /<command>
+    aliases: setupApi
